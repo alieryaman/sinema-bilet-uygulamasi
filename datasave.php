@@ -16,7 +16,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$tarih=date("yyddmm");
+$tarih=date("Y-m-d H:i:s");
 
 $sql = "INSERT INTO rezervasyonlar (Rezervler, tarih, Kaydeden) VALUES ('$deger', '$tarih', 'john@example.com')";
 

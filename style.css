@@ -6,15 +6,17 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    color: #fff;
+    color: rgb(230, 24, 24);
 }
 
 .seat {
     background-color: #444451;
-    height: 15px;
-    width: 15px;
+    height: 60px;
+    width: 60px;
     margin: 3px;
     border-radius: 5px;
+    color: red;
+    text-align: center;
 }
 
 .seat.selected {
